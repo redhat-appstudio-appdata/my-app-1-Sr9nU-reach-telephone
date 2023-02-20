@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-jcn8
+  namespace: mbasti-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:8df612632fc9bc0d852d5074cf9252989fbb160495bf0812c85b1d3a460e3a9f
+        name: my-python
+        resources: {}
+status: {}
