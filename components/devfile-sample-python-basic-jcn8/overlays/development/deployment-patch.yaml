@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload@sha256:8df612632fc9bc0d852d5074cf9252989fbb160495bf0812c85b1d3a460e3a9f
+      - image: quay.io/redhat-appstudio/user-workload@sha256:d7b5ea4b7c4c0f28976baff986b2cc7be321bd176735832919ea06ba736dea62
         name: my-python
         resources: {}
 status: {}
